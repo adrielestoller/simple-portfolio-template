@@ -17,8 +17,8 @@ export default function Card({
                 target="_blank"
                 className={`${styles.container} ${styles.link}`}
             >
-                {title && <h2 className={styles.title}>{title}</h2>}
                 {subtitle && <h2 className={styles.subtitle}>{subtitle}</h2>}
+                {title && <h2 className={styles.title}>{title}</h2>}
                 <p className={styles.description}>{description}</p>
                 {Icon && <Icon className={styles.icon} />}
             </Link>

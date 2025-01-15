@@ -4,7 +4,7 @@ import Card from "@/components/Card";
 import Profile from "@/components/Profile";
 import LinkRow from "@/components/LinkRow";
 import styles from "./page.module.css";
-import { BookmarkIcon, Github } from "lucide-react";
+import { BookIcon, BookOpen, Github } from "lucide-react";
 
 export default function Home() {
     return (
@@ -16,7 +16,19 @@ export default function Home() {
                 <Card
                     title="Title"
                     description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt animi earum deserunt ab nobis assumenda sequi repudiandae magni, maiores illum delectus quae, architecto laborum perferendis itaque alias repellat modi omnis."
-                    icon={BookmarkIcon}
+                    icon={BookOpen}
+                />
+                <Card
+                    subtitle="Article"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt animi earum deserunt ab nobis assumenda sequi repudiandae magni, maiores illum delectus quae, architecto laborum perferendis itaque alias repellat modi omnis."
+                    icon={BookIcon}
+                    link="#"
+                />
+                <Card
+                    subtitle="Article"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt animi earum deserunt ab nobis assumenda sequi repudiandae magni, maiores illum delectus quae, architecto laborum perferendis itaque alias repellat modi omnis."
+                    icon={BookIcon}
+                    link="#"
                 />
             </main>
             <LinkRow link="" icon={Github} />
