@@ -1,0 +1,16 @@
+.container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.link {
+    color: #535353;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 400ms;
+}
+
+.link:hover {
+    background-color: #c4c3c3;
+}

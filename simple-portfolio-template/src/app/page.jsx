@@ -2,8 +2,9 @@
 
 import Card from "@/components/Card";
 import Profile from "@/components/Profile";
+import LinkRow from "@/components/LinkRow";
 import styles from "./page.module.css";
-import { BookmarkIcon } from "lucide-react";
+import { BookmarkIcon, Github } from "lucide-react";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
                     icon={BookmarkIcon}
                 />
             </main>
+            <LinkRow link="" icon={Github} />
             <footer className={styles.footer}>
                 <span className={styles.copyright}>&copy;</span> by Developer
             </footer>
