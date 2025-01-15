@@ -7,8 +7,17 @@ import user from "./../../public/user.jpg";
 export default function Profile() {
     return (
         <div className={styles.container}>
-            <Image src={wallpaper} className={styles.wallpaper} />
-            <Image src={user} className={styles.user} />
+            <Image
+                src={wallpaper}
+                alt="page wallpaper"
+                className={styles.wallpaper}
+                priority
+            />
+            <Image
+                src={user}
+                alt="user profile photo"
+                className={styles.user}
+            />
         </div>
     );
 }
