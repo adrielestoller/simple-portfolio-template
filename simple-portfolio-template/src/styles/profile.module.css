@@ -4,7 +4,7 @@
 }
 
 .wallpaper {
-    width: 100%;
+    width: 100vw;
     height: 30vw;
     object-fit: cover;
     object-position: center bottom;
@@ -26,10 +26,23 @@
     align-self: center;
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 1280px) {
+    .wallpaper {
+        height: 20vw;
+    }
+
     .user {
-        width: 30vw;
-        height: 30vw;
+        margin-top: -10rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .user {
+        margin-top: -5rem;
+        width: 40vw;
+        height: 40vw;
+        max-width: 500px;
+        max-height: 500px;
         border: 0.4rem solid white;
     }
 }
