@@ -13,12 +13,14 @@ export default function Home() {
             </header>
             <main className={styles.main}>
                 <Card
-                    title="Adriel Estoller"
+                    title="Title"
                     description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt animi earum deserunt ab nobis assumenda sequi repudiandae magni, maiores illum delectus quae, architecto laborum perferendis itaque alias repellat modi omnis."
                     icon={BookmarkIcon}
                 />
             </main>
-            <footer className={styles.footer}></footer>
+            <footer className={styles.footer}>
+                <span className={styles.copyright}>&copy;</span> by Developer
+            </footer>
         </div>
     );
 }
