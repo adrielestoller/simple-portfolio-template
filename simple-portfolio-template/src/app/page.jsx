@@ -33,7 +33,8 @@ export default function Home() {
             </main>
             <LinkRow link="" icon={Github} />
             <footer className={styles.footer}>
-                <span className={styles.copyright}>&copy;</span> by Developer
+                <span className={styles.copyright}>&copy;</span> {""}
+                {new Date().getFullYear()} by Developer
             </footer>
         </div>
     );
